@@ -1,0 +1,7 @@
+   int i = 10;
+   int n = i++%5;
+  i What are the values of i and n after the code is executed?
+--> The values of i,n are 10,0 Because in post increment the value is increase after assignment intially i = 10 assigned to n % 5 10 % 5 it results 0
+What are the final values of i and n if instead of using the postfix increment operator (i++), you use the prefix version (++i))?
+--> in this case the value of i is 11 and n is 0 in preincrement the increment will done first later assign to n 11 % 5 gives 1
+
